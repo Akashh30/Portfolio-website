@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: absolute;
+    background-color: rgb(192, 188, 188);
+    font-family: 'font-family', 'Dancing Script', 'cursive';
+    height: 100vh;
+    transition: tranform 0.4s ease-in;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 30px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.main {
+    /* background-color:yellow; */
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: purple; */
+    height: 55vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.hello {
+    font-size: 3em;
+}
+
+.name {
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'font-family', 'Dancing Script', 'cursive';
+}
+
+.about {
+    font-size: 2.5em;
+}
+
+.moreabout {
+    font-size: 2em;
+    font-family: 'font-family', 'Dancing Script', 'cursive';
+    margin: 2px;
+}
+
+.buttons {
+    font-size: 2.2em;
+    margin-top: 5px;
+}
+
+.btn {
+    padding: 7px 11px;
+    border-radius: 19px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 3px 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.btn-sm {
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+
+
+.devpic img {
+    height: 55vh;
+}
+
+.contactform {
+    padding: 0 34px;
+    margin: 0 95px;
+}
+
+.contactform h1 {
+    text-align: center;
+}
+
+.contactform form div {
+    padding: 7px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form {
+    margin: 0 40px;
+}
+
+.contactform form div input {
+    /* width: 16vw; */
+    border-radius: 5px;
+    margin 6px 0 0 0;
+    padding: 3px;
+}
+
+
+#emailHelp {
+    font-size: 9px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+}
+
+.blogItem {
+    margin: 20px;
+}
+
+.blogcontainer{
+    margin: 0 95px;
+}
+
+h1 {
+    margin: 23px;
+    font-family: 'font-family', 'Dancing Script', 'cursive'
+
+}
+
+p {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.intro{
+     margin: 95px;
+}
+
+.intro h2 {
+    font-family: 'font-family', 'Dancing Script', 'cursive';
+    margin: 12px;
+}
+
+.intro p {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.skillcontainer {
+    padding: 12px;
+}
+
+.skillItem {
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+
+.skill {
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.hundred {
+    width: 265px;
+    background-color: blueviolet;
+}
+
+.fifty {
+    width: 125px;
+    background-color: aqua;
+}
+
+.t5 {
+    width: 75px;
+    background-color: yellow;
+}
+
+.sidebarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cross {
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+@media (max-width: 1615) {
+    * {
+        /* background-color: red; */
+        /* }
+     {
+ .devPic{
+        display
+    
+     .sidebar{
+            transform: translate(-443px, 0px);
+            position: absolute;
+             } */
+    }
